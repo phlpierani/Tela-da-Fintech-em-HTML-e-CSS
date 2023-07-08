@@ -1,0 +1,30 @@
+:root{
+    --bg-color: #ccc;
+    --margin-10: 10px;
+    --margin-30: 30px;
+    --margin-50: 50px;
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--bg-color);
+    }
+    
+    .container h1{
+        margin: 20px auto;
+        text-align: center;
+        margin: var(--margin-30);
+    }
+    
+    .box{
+        --widht-total: 60%;
+    --margin: 25px;
+    width: var(--widht-total);
+    margin: var(--margin) auto;
+    }
+    
+    
